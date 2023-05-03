@@ -11,4 +11,5 @@
 import python
 
 from Function f
-select f
+where f.getName() = "api_method"
+select f,1
