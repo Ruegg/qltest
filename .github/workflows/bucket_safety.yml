@@ -39,5 +39,5 @@ jobs:
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v2
         with:
-          queries: /.github/queries/bucket_safety.ql
+          queries: .github/queries/bucket_safety.ql
           languages: ${{ matrix.language }}
