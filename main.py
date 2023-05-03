@@ -26,5 +26,6 @@ class api_method():
     ]
 )
 def v3_something(ctx, bucket):
+    test = 4
     print('something')
     print(bucket)
