@@ -1,10 +1,9 @@
 name: ruegg/qltest
-version: 0.7.1-dev
+version: 0.0.0
 groups: 
   - python
   - queries
 dependencies:
-  codeql/python-all: ${workspace}
-  codeql/suite-helpers: ${workspace}
-suites: codeql-suites
+  codeql/python-all: "*"
+  codeql/suite-helpers: "*"
 extractor: python
